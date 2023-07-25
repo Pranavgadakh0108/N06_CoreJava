@@ -17,8 +17,9 @@ public class HomeWork {
 		
 	System.out.println("\n----------------------------------------------\n");	
 		//Do while loop Problem
+		@SuppressWarnings("resource")
 		Scanner s= new Scanner(System.in);
-		System.out.println("Enter a value of n: ");
+		System.out.print("Enter a value of n: ");
 		int n=s.nextInt();
 		
 		do {
