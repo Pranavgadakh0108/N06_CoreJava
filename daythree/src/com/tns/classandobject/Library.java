@@ -20,7 +20,7 @@ public class Library {
 		this.bookName = bookName;
 		this.price = price;
 		
-		System.out.println("Default Constructor");
+		System.out.println("Parameterized Constructor");
 	}
 	@Override
 	public String toString() {
