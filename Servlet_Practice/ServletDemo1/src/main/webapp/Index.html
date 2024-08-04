@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Form</title>
+	<style>
+        fieldset{
+            background-color: rgb(248, 242, 227);
+        }
+        #btn1{
+            background-color: rgb(121, 249, 121);
+        }
+        #l1{
+            border: 2px solid rgb(255, 136, 0);
+        }
+    </style>
+</head>
+<body>
+	<form action="submitForm" method="post">
+		<fieldset>
+            <legend id="l1"><b>EXAM REGISTRATION FORM</b></legend>
+            <label>Name : </label>
+            <input type="text" name="name1" >
+            <br><br>
+            <label>Email : </label>
+            <input type="email" name="email1">
+            <br><br>
+            <label>Password : </label>
+            <input type="password" name="pass1">
+            <br><br>
+            <label>Enter Age : </label>
+            <input type="number" name="age" min="18" max="28">
+            <br><br>
+            <label>Gender : </label>
+            <label>Male</label>
+            <input type="radio" name="gender" value="male">
+            <label>Female</label>
+            <input type="radio" name="gender" value="female">
+            <br><br>
+            <label>Enter Birthdate : </label>
+            <input type="date" name="date">
+            <br><br>
+            <label>Exam City : </label>
+            <select name="city">
+                <option value="nashik">Nashik</option>
+                <option value="thane">Thane</option>
+                <option value="mumbai">Mumbai</option>
+                <option value="pune">Pune</option>
+            </select>
+            <br><br>
+            <label>Upload Govt. ID : </label>
+            <input type="file" name="ID">
+            <br><br>
+            <input type="submit" value="SUBMIT" id="btn1">
+          </fieldset>
+	</form>
+</body>
+</html>
